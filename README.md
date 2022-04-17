@@ -5,7 +5,7 @@
 # THIS APPLICATION IS HOSTED ON GITHUB. VISIT THE LINK BELOW TO SEE THE PREVIEW
 
 ## 🌐 Link
-https://alijawad1511.github.io/Food-Website/
+https://alijawad1511.github.io/Snake-Game/
 
 ## 🛠️ Built With:
 - HTML
