@@ -25,10 +25,10 @@ You can play game using cursor keys on Keyboard
 ## 🖼️ Screenshots
 
 ## Screenshot 1
-<img src="https://github.com/alijawad1511/Snake-Game/blob/main/images/Sample%20Image%201.jpg" width="500" />
+<img src="https://github.com/alijawad1511/Snake-Game/blob/main/images/Sample%20Image%201.jpg" width="980" />
 
 ## Screenshot 2
-<img src="https://github.com/alijawad1511/Snake-Game/blob/main/images/Sample%20Image%202.jpg" width="500" />
+<img src="https://github.com/alijawad1511/Snake-Game/blob/main/images/Sample%20Image%202.jpg" width="900" />
 
 
 ## 📞 Contact me at:
