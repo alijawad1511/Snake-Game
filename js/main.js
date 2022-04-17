@@ -6,7 +6,7 @@ const moveSound = new Audio('../music/move.mp3');
 const scoreDiv = document.getElementById('score');
 scoreDiv.innerHTML = 0;
 var score = 0;
-var speed = 10;
+var speed = 20;
 let lastPaintTime = 0;
 
 // Snake Body Array
@@ -53,7 +53,12 @@ function gameEngine() {
 
     // @@@{ Part 1 : Update Snake Body/Array }@@@
     if (isCollided(snakeBody)) {
-        gameoverSound.play();
+        let promise = gameoverSound.play();
+        promise.then(() => {
+            console.log('Play');
+        }).catch((err) => {
+            console.log(err);
+        })
         direction = { x: 0, y: 0 };
         alert('Game Over!');
         snakeBody = [{ x: 20, y: 20 }];
@@ -62,7 +67,7 @@ function gameEngine() {
 
     // When Snake Eat Food, Regenerate Food
     if (snakeBody[0].x === foodPosition.x && snakeBody[0].y === foodPosition.y) {
-        foodSound.play();
+        // foodSound.play();
         score += 2;
         scoreDiv.innerHTML = score;
         console.log(score);
@@ -121,7 +126,7 @@ window.addEventListener('keydown', (e) => {
         case "ArrowUp":
             // Make sure not to move in opposite direction of current movement
             if (!(direction.x === 0 && direction.y === 1)) {
-                moveSound.play();
+                // moveSound.play();
                 direction.x = 0;
                 direction.y = -1;
             }
@@ -130,7 +135,7 @@ window.addEventListener('keydown', (e) => {
 
         case "ArrowDown":
             if (!(direction.x === 0 && direction.y === -1)) {
-                moveSound.play();
+                // moveSound.play();
                 direction.x = 0;
                 direction.y = 1;
             }
@@ -139,7 +144,7 @@ window.addEventListener('keydown', (e) => {
 
         case "ArrowLeft":
             if (!(direction.x === 1 && direction.y === 0)) {
-                moveSound.play();
+                // moveSound.play();
                 direction.x = -1;
                 direction.y = 0;
             }
@@ -148,7 +153,7 @@ window.addEventListener('keydown', (e) => {
 
         case "ArrowRight":
             if (!(direction.x === -1 && direction.y === 0)) {
-                moveSound.play();
+                // moveSound.play();
                 direction.x = 1;
                 direction.y = 0;
             }
