@@ -1,11 +1,11 @@
 # Snake Game
-
-#### If you like my work, please start following this project's author [Syed Ali Jawad](https://github.com/alijawad1511) and don't hesitate to give star⭐ to my project to show your ❤️❤️ and support
+Sname Game developed using HTML, CSS and JavaScript. Play it and Enjoy
+<img src="https://github.com/alijawad1511/Snake-Game/blob/main/images/Sample%20Image%201.jpg" width="900" />
 
 # THIS APPLICATION IS HOSTED ON GITHUB. VISIT THE LINK BELOW TO SEE THE PREVIEW
 
-## 🌐 Link
-https://alijawad1511.github.io/Snake-Game/
+## 🎮 DO you want to play game?
+[Play Now!](https://alijawad1511.github.io/Snake-Game/)
 
 ## 🛠️ Built With:
 - HTML
@@ -22,14 +22,10 @@ You can play game using cursor keys on Keyboard
 - Left
 - Right
 
-## 🖼️ Screenshots
-
-## Screenshot 1
-<img src="https://github.com/alijawad1511/Snake-Game/blob/main/images/Sample%20Image%201.jpg" width="900" />
-
-## Screenshot 2
+## 🖼️ Screenshot
 <img src="https://github.com/alijawad1511/Snake-Game/blob/main/images/Sample%20Image%202.jpg" width="900" />
 
+#### If you like my work, please start following this project's author [Syed Ali Jawad](https://github.com/alijawad1511) and don't hesitate to give star⭐ to my project to show your ❤️❤️ and support
 
 ## 📞 Contact me at:
 - [LinkedIn](https://www.linkedin.com/in/alijawad1511)
