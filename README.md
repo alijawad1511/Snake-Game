@@ -4,7 +4,7 @@ Sname Game developed using HTML, CSS and JavaScript. Play it and Enjoy
 
 # THIS APPLICATION IS HOSTED ON GITHUB. VISIT THE LINK BELOW TO SEE THE PREVIEW
 
-## 🎮 DO you want to play game?
+## 🎮 Do you want to play game?
 [Play Now!](https://alijawad1511.github.io/Snake-Game/)
 
 ## 🛠️ Built With:
