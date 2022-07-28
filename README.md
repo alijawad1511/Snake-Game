@@ -1,5 +1,7 @@
 # Snake Game
 Sname Game developed using HTML, CSS and JavaScript. Play it and Enjoy
+
+
 <img src="https://github.com/alijawad1511/Snake-Game/blob/main/images/Sample%20Image%201.jpg" width="900" />
 
 # THIS APPLICATION IS HOSTED ON GITHUB. VISIT THE LINK BELOW TO SEE THE PREVIEW
